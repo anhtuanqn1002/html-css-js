@@ -1,0 +1,106 @@
+.child {
+    background-color: rgb(12, 35, 56);
+}
+
+.child2 {
+    background-color: rgb(122, 35, 56);
+}
+
+.view3 {
+    height: 300px;
+    width: 100%;
+}
+
+.background-image {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.background-image img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.arrow-down {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.contact-info {
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 20px;
+}
+
+.topview-1 {
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.topview-1 li {
+    /* padding-left: 5px;
+    margin-left: 10px; */
+    font-size: 13px;
+}
+
+.topview-2 {
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+.fa {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-icon {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.card-view {
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.card-icon {
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 20px;
+}
+
+.card-header:hover {
+    background-color: teal;
+}
+
+.card-icon-left {
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 20px;
+}
